@@ -1,0 +1,40 @@
+.dice-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+.grid{
+    font-size: 1.5rem;
+}
+
+.pushable {
+    background: hsl(0, 2%, 48%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(212, 16%, 16%);
+    color: white;
+    transform: translatey(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 668px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
